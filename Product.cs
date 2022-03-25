@@ -1,11 +1,9 @@
-﻿using Core.Entities;
+
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.Concrete
-{
-    public class Product : IEntity
+    public class Product 
     {
         public int Id { get; set; }
         public int CategoryId { get; set; }
@@ -19,4 +17,4 @@ namespace Entities.Concrete
         public DateTime ExpirationDate { get; set; }
 
     }
-}
+
